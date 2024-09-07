@@ -10,9 +10,9 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ./certs:/etc/nginx/certs:ro
     networks:
-      - n2app-file
+      - n2app-file-networks
 
 networks:
-  n2app-file:
+  n2app-file-networks:
     external: true
-    name: n2app-file
+    name: n2app-file-networks
