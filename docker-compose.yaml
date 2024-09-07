@@ -15,4 +15,4 @@ services:
 networks:
   n2app-file:
     external: true
-    name: n2devskill
+    name: n2app-file
